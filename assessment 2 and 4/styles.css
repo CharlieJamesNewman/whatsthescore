@@ -1,0 +1,530 @@
+
+
+
+.container-fluid {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFXZv0VBfQe5tVq6frR-_CLMHTnDzaRiwoBQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    border: 0px;
+    position: fixed;
+    display: inline-block;
+}
+
+
+img {
+    width: 5%;
+}
+
+.navbar-expand-lg {
+     background-color: aqua;
+}
+
+
+body {
+    font-family: 'Roboto', bold, sans-serif;
+    color: salmon;
+    background-image: url(images/footballpitch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding-top: 0;
+    height:auto;
+    
+}
+
+.navbar {
+    font-family: 'Roboto', bold, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 75px;
+}
+
+.nav-link {
+    font-family: 'Roboto', bold, sans-serif;
+    color: salmon;
+}
+
+.navbar-brand {
+    
+}
+
+table {
+    background-color: aliceblue;
+}
+
+.carousel-item img {
+    width: 20px;
+    height:auto
+  }
+  
+
+  .containerforcarousels {
+    display:flex;
+    position:relative;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    grid-template-columns:1fr 500px 1fr 500px 1fr;
+    grid-template-rows:1px 1fr;
+    gap: 10px;
+    display: grid;
+    
+  }
+
+
+
+    .containercarousel1 {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px; /* set a fixed height */
+        overflow-y: scroll; /* enable scrolling */
+        position:relative;
+        padding: 0%;
+        border-radius: 10px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+       
+    }
+
+    .containercarousel2 {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px; /* set a fixed height */
+        overflow-y: scroll; /* enable scrolling */
+        position:relative;
+        padding: 0%;
+        border-radius: 10px;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+       
+         }
+
+         /* Define the initial styles for the container */
+.containercarousel2 {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px; /* set a fixed height */
+  overflow-y: scroll; /* enable scrolling */
+  position:relative;
+  padding: 0%;
+  border-radius: 10px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/* Define the media query for smaller screen sizes */
+@media only screen and (max-width: 767px) {
+  /* Adjust the grid positioning properties to join a new row */
+  .containercarousel2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+
+
+
+         table {
+            max-height: 600px;
+         }
+
+
+    .premlogo {
+     height:100px;
+      width: 400px;
+      display: flex; /* set the display property of the div to flex */
+      justify-content: center; /* horizontally center the contents of the div */
+      align-items: center; /* vertically center the contents of the div */
+         }
+    
+         #premlogoimage {
+            width: 120px;
+            align-self: center;
+            align-content: center;
+            align-items: center;
+            display: block;
+            margin: auto;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            
+         }
+
+         .laligalogo {
+            height:100px;
+             width: 400px;
+             display: flex; /* set the display property of the div to flex */
+             justify-content: center; /* horizontally center the contents of the div */
+             align-items: center; /* vertically center the contents of the div */
+             flex-shrink: 0;
+
+            }
+           
+                #laligalogoimage {
+                    width: 120px;
+                    align-self: center;
+                    align-content: center;
+                    align-items: center;
+                    display: block;
+                    margin: auto;
+                    
+                 }
+    
+      
+      table {
+        background-color: white;
+        text-align: center;
+        width:auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        
+      }
+
+    
+        
+        
+    
+
+   /* Hide the scrollbar thumb and track */
+    .containercarousel2::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+   /* Hide the scrollbar thumb and track */
+   .containercarousel1::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+
+
+  .carousel-item {
+    width: auto;
+  }
+
+  
+
+  .scoreLeagueToggleButton {
+
+  
+
+  }
+
+  .titleofpage {
+    position: absolute; /* position the inner div relative to the outer div */
+    top: 50%; /* position the top of the inner div halfway down the outer div */
+    left: 50%; /* position the left of the inner div halfway across the outer div */
+    transform: translate(-50%, -50%); /* move the inner div back up and to the left by half its width and height */
+    }
+
+    
+    #mybutton {
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        width: 1px;
+        height: 1px;
+        
+      }
+
+      .buttonimage {
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        width: 60px;
+        height: 60px;
+        background-color: transparent;
+        color: red;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 50%;
+        
+      }
+
+      .parentofbutton {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        justify-self: center;
+        align-self: center;
+        
+      }
+
+
+
+footer.footer {
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 60px; /* Set the height of your footer */
+  background-color: 
+
+
+  
+}
+
+.container {
+  width: 100%;
+  max-width: 680px;
+  padding: 0 ;
+  display: inline-block;
+  flex-direction: column;
+  min-height: 100vh;
+  position: fixed;
+}
+
+/* Sticky footer styles */
+body > .container {
+  padding:0;
+}
+
+@media (min-width: 768px) {
+  body > .container {
+    padding: 0;
+  }
+}
+
+#footerul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+  }
+  
+  #footerul ul li {
+    display: inline-block;
+    margin-right: 10px;
+    
+  }
+
+.lilinks {
+    color: salmon;
+    font-family: 'Roboto', bold, sans-serif;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-left: 50px;
+    color: salmon;
+}
+
+footer {
+    margin-top: auto;
+  }
+
+
+  tbody {}
+ 
+  .nav-link:hover {
+    color: cadetblue;
+ }
+ 
+ .lilinks:hover {
+  color: cadetblue;
+ }
+      
+  h2 {
+    display: inline-flex;
+    font-family: 'Roboto', bold, sans-serif;
+  }
+
+  .firstletter {
+    color: salmon; 
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .secondword {
+    margin-right: 10px;
+    color: white;
+  }
+
+  .firstword {
+    margin-right: 10px;
+  }
+
+  .secondletter {
+    color: white;
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .thirdletter {
+  
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+  .aboutcontainer {
+    background-color: white;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .containerregister {
+
+  }
+
+  /* Styles for the form container */
+form {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Styles for the form fields */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath d='M15 23.4375l-11.25-11.25 2.8125-2.8125 8.4375 8.4375 8.4375-8.4375 2.8125 2.8125z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  background-size: auto 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Styles for the buttons */
+button[type="reset"],
+button[type="submit"] {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #008CBA;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="reset"]:hover,
+button[type="submit"]:hover {
+  background-color: #005F6B;
+}
+
+button[type="reset"]:focus,
+button[type="submit"]:focus {
+  outline: none;
+}
+
+/* Styles for the form header and paragraph */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #666;
+}
+
+.registerp {
+  color: white;
+}
+
+.registerh1 {
+  color: white;
+}
+
+
+.bodyabout {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.mainabout {
+	padding: 20px;
+ 
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+	margin: 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.aboutpdiv {
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  
+}
